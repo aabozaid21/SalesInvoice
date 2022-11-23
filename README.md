@@ -11,7 +11,7 @@ dowbload Project Code
 ```bash
   Open Project On IDE Ex: Elips / NetBeans 
   or any java environment IDE
-
+  Open src/InvoiceDesktop
   Run Main.java 
 
 ```
