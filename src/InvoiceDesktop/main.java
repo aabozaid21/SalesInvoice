@@ -20,6 +20,7 @@ public class main {
 		in.setInLine(Line);
 
 		Invoices = in.returnAllInvoices();
+
 		for (Invoice i : Invoices) {
 			// invoice = i.toString();
 			// String[] splited = invoice.split("\\\\s+");

@@ -84,7 +84,7 @@ public class InvoiceFrame extends javax.swing.JFrame {
 		saveFile = new javax.swing.JMenuItem();
 
 		fileChooser.setAcceptAllFileFilterUsed(false);
-		fileChooser.setCurrentDirectory(new File("D:\\invoiceDesktop\\src"));
+		fileChooser.setCurrentDirectory(new File(System.getProperty("user.dir") + "\\src\\csv\\"));
 		fileChooser.setDialogTitle("enter specified  csv files");
 		fileChooser.setFileFilter(new MyCustomFilter());
 
@@ -207,7 +207,7 @@ public class InvoiceFrame extends javax.swing.JFrame {
 
 		jLabel6.setText("enter item count");
 
-		addingItem.setText("add item");
+		addingItem.setText("create item");
 		addingItem.addActionListener(new java.awt.event.ActionListener() {
 			@Override
 			public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -368,7 +368,7 @@ public class InvoiceFrame extends javax.swing.JFrame {
 			}
 		});
 
-		addItemButton.setText("add item");
+		addItemButton.setText("create item");
 		addItemButton.addActionListener(new java.awt.event.ActionListener() {
 			@Override
 			public void actionPerformed(java.awt.event.ActionEvent evt) {
