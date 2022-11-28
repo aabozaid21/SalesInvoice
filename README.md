@@ -16,3 +16,6 @@ dowbload Project Code
 
 ```
     
+## Lang & Jdk
+the project used java lambda 8
+jkd 18
