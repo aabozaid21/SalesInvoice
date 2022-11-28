@@ -19,3 +19,12 @@ dowbload Project Code
 ## Lang & Jdk
 the project used java lambda 8
 jkd 18
+
+How to use
+1. Open src/InvoiceDesktop
+2.  Run Main.java 
+3.  Click on File menue 
+4.  load ( invoiceheader first , then invoiceline )
+5.  create invoice and items 
+6.  to save data created 
+7.  click on file menu the click on save ( then data will be saved )
